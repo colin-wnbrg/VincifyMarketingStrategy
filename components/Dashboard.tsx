@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
-import { VideoScript, ContentCategory } from '../types';
+import { VideoScript, ContentCategory } from '../types.ts';
 import { BookOpen, UserCheck, Sparkles, BrainCircuit, TrendingUp, Target, Layers, CheckCircle2 } from 'lucide-react';
 
 interface DashboardProps {

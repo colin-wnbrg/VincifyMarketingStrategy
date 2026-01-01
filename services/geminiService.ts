@@ -1,7 +1,6 @@
-
 import { GoogleGenAI, Type } from "@google/genai";
-import { VINCIFY_STRATEGY_CONTEXT } from "../constants";
-import { VideoScript, ContentCategory, TimeSlot } from "../types";
+import { VINCIFY_STRATEGY_CONTEXT } from "../constants.tsx";
+import { VideoScript, ContentCategory, TimeSlot } from "../types.ts";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
 

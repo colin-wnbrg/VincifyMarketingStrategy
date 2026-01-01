@@ -5,7 +5,6 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
-      base: '/VincifyMarketingStrategy/', // ← Voeg dit toe! Vervang met je echte repo naam
       server: {
         port: 3000,
         host: '0.0.0.0',

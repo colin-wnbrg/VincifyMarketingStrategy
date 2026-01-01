@@ -1,12 +1,11 @@
-
 import React, { useState, useEffect, useCallback } from 'react';
 import { Calendar, LayoutDashboard, ScrollText, Sparkles, Download, Search, X, Activity } from 'lucide-react';
-import { VideoScript, TimeSlot } from './types';
-import { generateBatchScripts } from './services/geminiService';
-import { generateStaticSchedule } from './data/contentData';
-import Dashboard from './components/Dashboard';
-import ContentCalendar from './components/ContentCalendar';
-import ScriptView from './components/ScriptView';
+import { VideoScript, TimeSlot } from './types.ts';
+import { generateBatchScripts } from './services/geminiService.ts';
+import { generateStaticSchedule } from './data/contentData.ts';
+import Dashboard from './components/Dashboard.tsx';
+import ContentCalendar from './components/ContentCalendar.tsx';
+import ScriptView from './components/ScriptView.tsx';
 
 const COMPLETED_SCRIPTS_KEY = 'vincify_completed_scripts_v1';
 const SCRIPT_POSITIONS_KEY = 'vincify_script_positions_v1';

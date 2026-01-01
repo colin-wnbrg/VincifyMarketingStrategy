@@ -1,6 +1,5 @@
-
 import React, { useState } from 'react';
-import { VideoScript, TimeSlot, ContentCategory } from '../types';
+import { VideoScript, TimeSlot, ContentCategory } from '../types.ts';
 import { ExternalLink, Clock, Calendar as CalendarIcon, FileText, Sparkles, CheckCircle2, RotateCcw, Layers } from 'lucide-react';
 
 interface ContentCalendarProps {

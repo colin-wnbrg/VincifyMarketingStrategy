@@ -1,6 +1,5 @@
-
 import React from 'react';
-import { ContentCategory } from './types';
+import { ContentCategory } from './types.ts';
 
 export const VINCIFY_STRATEGY_CONTEXT = `
 App Name: Vincify

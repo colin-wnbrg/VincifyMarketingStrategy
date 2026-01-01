@@ -1,6 +1,5 @@
-
 import React, { useState, useEffect } from 'react';
-import { VideoScript, ContentCategory } from '../types';
+import { VideoScript, ContentCategory } from '../types.ts';
 import { Copy, Calendar, Clock, ScrollText, Check, Mic2, Zap, Brain, Lightbulb, ArrowRightCircle, MessageSquare } from 'lucide-react';
 
 interface ScriptViewProps {
