@@ -1,5 +1,4 @@
-
-import { VideoScript, ContentCategory, TimeSlot } from '../types';
+import { VideoScript, ContentCategory, TimeSlot } from '../types.ts';
 
 /**
  * All 90 scripts for the 30-day marketing campaign.
@@ -451,6 +450,7 @@ const fixedPosts: Record<string, Partial<VideoScript>> = {
     keywords: ["Physics", "ChaosTheory", "Math"]
   },
 
+  // --- DAY 15 ---
   "15-Morning": {
     category: ContentCategory.B,
     narratorScript: "You don't need to be the top 1% to be successful. You just need to be in the top 25% of two different things. If you are good at Coding and good at Writing, you are unstoppable. That is 'Skill Stacking.' But learning a second field is intimidating. And that's exactly why we built Vincify. It is the ultimate Skill Stacking tool. Learn the basics of a new field every week and stack your odds. Download Vincify.",
@@ -463,8 +463,8 @@ const fixedPosts: Record<string, Partial<VideoScript>> = {
   },
   "15-Mid-Day": {
     category: ContentCategory.A,
-    narratorScript: "Why was Da Vinci digging up graves at night? To dissect bodies. It was illegal and dangerous. But he realized that ancient medical texts were wrong, and he trusted his eyes more than the books. Today, we blindly trust whatever is on the internet. And that's exactly why we built Vincify. We encourage you to go to the source. Don't just trust what you're told—verify it. Dig for truth and get Vincify.",
-    hook: "Why was Da Vinci digging up graves at night?",
+    narratorScript: "Why did Da Vinci digging up graves at night? To dissect bodies. It was illegal and dangerous. But he realized that ancient medical texts were wrong, and he trusted his eyes more than the books. Today, we blindly trust whatever is on the internet. And that's exactly why we built Vincify. We encourage you to go to the source. Don't just trust what you're told—verify it. Dig for truth and get Vincify.",
+    hook: "Why did Da Vinci digging up graves at night?",
     value: "To dissect bodies and verify truth. Today, we blindly trust the internet.",
     product: "And that's exactly why we built Vincify. We encourage you to go to the source. Don't just trust what you're told—verify it.",
     cta: "Dig for truth and get Vincify.",
@@ -482,6 +482,7 @@ const fixedPosts: Record<string, Partial<VideoScript>> = {
     keywords: ["Morning", "Routine", "Wisdom"]
   },
 
+  // --- DAY 16 ---
   "16-Morning": {
     category: ContentCategory.A,
     narratorScript: "Da Vinci's tank had a fatal flaw. Was it on purpose? If you built the tank according to his plans, the wheels would spin in opposite directions and it wouldn't move. Some historians think he did this as a security key so enemies couldn't steal his design. Genius is in the details. But we are trained to skim and skip details. And that's exactly why we built Vincify. To sharpen your attention to detail with daily micro-learning. Check the details and download Vincify.",
@@ -513,6 +514,7 @@ const fixedPosts: Record<string, Partial<VideoScript>> = {
     keywords: ["Prank", "Playful", "Creativity"]
   },
 
+  // --- DAY 17 ---
   "17-Morning": {
     category: ContentCategory.B,
     narratorScript: "Stop multitasking. It makes you stupid. Your brain cannot parallel process. It just switches rapidly, losing IQ points every time. Deep learning requires single-tasking. But our phones are designed to interrupt us. And that's exactly why we built Vincify. It is designed for Monotasking. 5 minutes. One topic. Zero distractions. That’s how you actually learn. Focus up and download Vincify.",
@@ -544,6 +546,7 @@ const fixedPosts: Record<string, Partial<VideoScript>> = {
     keywords: ["Robotics", "History", "Tech"]
   },
 
+  // --- DAY 18 ---
   "18-Morning": {
     category: ContentCategory.A,
     narratorScript: "The Renaissance had a goal: Uomo Universale. The Universal Man. Someone who developed their body, their mind, their social skills, and their art equally. Today we call it 'self-improvement,' but we lack the roadmap. And that's exactly why we built Vincify. It is your pocket tool for becoming a Universal Man or Woman. Don't settle for being partial. Become Universal—link in bio.",
@@ -575,6 +578,7 @@ const fixedPosts: Record<string, Partial<VideoScript>> = {
     keywords: ["Collection", "Knowledge", "MindPalace"]
   },
 
+  // --- DAY 19 ---
   "19-Morning": {
     category: ContentCategory.A,
     narratorScript: "He bought birds just to let them go. Da Vinci spent a fortune buying caged birds in the market to release them. He wanted to watch how their wings moved because he was obsessed with human flight. He followed his obsession. Most of us suppress our obsessions because they seem 'useless.' And that's exactly why we built Vincify. What is your obsession? Feed it. Fly high and download Vincify.",
@@ -606,6 +610,7 @@ const fixedPosts: Record<string, Partial<VideoScript>> = {
     keywords: ["UrbanPlanning", "History", "Solution"]
   },
 
+  // --- DAY 20 ---
   "20-Morning": {
     category: ContentCategory.A,
     narratorScript: "The eye is the window to the soul. Da Vinci wrote that. But he didn't just write poetry; he dissected eyes to understand how light enters the retina. He needed to know the physics of sight to paint the soul. He mixed Science and Art. We keep them separated. And that's exactly why we built Vincify. It is where Physics meets Soul. Open your eyes and download Vincify.",
@@ -637,7 +642,7 @@ const fixedPosts: Record<string, Partial<VideoScript>> = {
     keywords: ["Legacy", "Journey", "Polymath"]
   },
 
-  // --- DAY 21-30 (MAPPED TO NARRATOR SCRIPTS) ---
+  // --- DAY 21 ---
   "21-Morning": {
     category: ContentCategory.A,
     narratorScript: "There is a difference between looking and seeing. Da Vinci had a motto: Saper Vedere. It means 'knowing how to see.' He didn't just look at a tree; he looked at the branching patterns, the mathematics of growth, and the light on the leaves. Most of us walk through life blind to these details. And that's exactly why we built Vincify. To teach you how to see. When you learn the basics of Botany or Architecture on our app, you start seeing the world differently. You gain new lenses. Get new lenses and download Vincify.",
@@ -669,6 +674,7 @@ const fixedPosts: Record<string, Partial<VideoScript>> = {
     keywords: ["Physics", "Shadows", "Reality"]
   },
 
+  // --- DAY 22 ---
   "22-Morning": {
     category: ContentCategory.B,
     narratorScript: "You don't need a $2,000 setup to be a genius. Da Vinci used scraps of paper and chalk. The tool doesn't matter; the habit matters. You are procrastinating by buying gear instead of learning. And that's exactly why we built Vincify. It is a simple tool. A list. An AI. A lesson. No complex setup. Just pure learning. Stop configuring and start learning—download Vincify.",
@@ -700,6 +706,7 @@ const fixedPosts: Record<string, Partial<VideoScript>> = {
     keywords: ["Ritual", "Knowledge", "Grind"]
   },
 
+  // --- DAY 23 ---
   "23-Morning": {
     category: ContentCategory.A,
     narratorScript: "Why did Da Vinci find seashells on top of mountains? The church said it was the Great Flood. Da Vinci said 'No.' He realized the mountains were once underwater and had risen up over millions of years. He discovered Plate Tectonics 400 years before science did. He read the earth like a book. And that's exactly why we built Vincify. To teach you the language of the earth. Geology, Paleontology, Deep Time. Learn to read the story of the planet. Download Vincify.",
@@ -731,6 +738,7 @@ const fixedPosts: Record<string, Partial<VideoScript>> = {
     keywords: ["GoldenRatio", "Math", "Nature"]
   },
 
+  // --- DAY 24 ---
   "24-Morning": {
     category: ContentCategory.A,
     narratorScript: "It took him 16 years to paint the Mona Lisa. Da Vinci was a massive procrastinator. He carried the painting around for decades, adding one tiny brushstroke at a time. He knew that perfection takes time. But we want instant results. And that's exactly why we built Vincify. To build a habit of slow, steady progress. You don't need to learn everything today. Just learn one thing. Start your masterpiece and download Vincify.",
@@ -762,6 +770,7 @@ const fixedPosts: Record<string, Partial<VideoScript>> = {
     keywords: ["Thinking", "DeepWork", "Genius"]
   },
 
+  // --- DAY 25 ---
   "25-Morning": {
     category: ContentCategory.B,
     narratorScript: "Steve Jobs stole his philosophy from Da Vinci. Jobs said, 'Creativity is just connecting things.' That is exactly what Da Vinci did. He connected art to engineering. But you cannot connect dots if you don't have any dots to begin with. And that's exactly why we built Vincify. To help you collect more dots. Learn History, Economics, and Science. The more you know, the more creative you become. Collect dots and download Vincify.",
@@ -793,6 +802,7 @@ const fixedPosts: Record<string, Partial<VideoScript>> = {
     keywords: ["History", "Legacy", "Focus"]
   },
 
+  // --- DAY 26 ---
   "26-Morning": {
     category: ContentCategory.A,
     narratorScript: "Da Vinci loved ugly people. He would follow interesting-looking people around Milan for hours just to memorize their noses and chins. He found beauty in the 'grotesque' and unique. He was the ultimate people watcher. And that's exactly why we built Vincify. To help you understand people better. Learn Psychology, Sociology, and Anatomy. Understand humans and download Vincify.",
@@ -824,6 +834,7 @@ const fixedPosts: Record<string, Partial<VideoScript>> = {
     keywords: ["Discipline", "Rigor", "Mantra"]
   },
 
+  // --- DAY 27 ---
   "27-Morning": {
     category: ContentCategory.A,
     narratorScript: "Helicopters didn't exist in 1480. Except on paper. Da Vinci sketched the 'Aerial Screw'. Engineers analyzed it recently—it wouldn't have flown because of weight, but the physics were correct. He was limited by materials, not by his mind. And that's exactly why we built Vincify. Don't let your current skills limit your imagination. Expand your mind so you're ready when the technology catches up. Dream big and download Vincify.",
@@ -855,6 +866,7 @@ const fixedPosts: Record<string, Partial<VideoScript>> = {
     keywords: ["Maps", "Geometry", "Satellite"]
   },
 
+  // --- DAY 28 ---
   "28-Morning": {
     category: ContentCategory.A,
     narratorScript: "The most expensive painting ever sold has a mistake. The Salvator Mundi sold for 450 million dollars, but the crystal orb in Jesus' hand doesn't refract the light correctly. Da Vinci knew optics perfectly. So why did he paint it 'wrong'? Was it a message? Or is the painting a fake? And that's exactly why we built Vincify. Art History is full of mysteries. Solve them. Learn Art History today. Download Vincify.",
@@ -886,6 +898,7 @@ const fixedPosts: Record<string, Partial<VideoScript>> = {
     keywords: ["DigitalDetox", "Intention", "Wellness"]
   },
 
+  // --- DAY 29 ---
   "29-Morning": {
     category: ContentCategory.A,
     narratorScript: "Elon Musk uses it. Da Vinci invented it. First Principles Thinking. Da Vinci didn't accept 'that's how it's done.' He broke everything down to its fundamental truths—anatomy, physics, light—and built up from there. But school teaches you to memorize by analogy. And that's exactly why we built Vincify. We teach you the foundations of every subject so you can think from the bottom up. Build from the bottom and download Vincify.",
@@ -917,6 +930,7 @@ const fixedPosts: Record<string, Partial<VideoScript>> = {
     keywords: ["Bicycle", "Controversy", "History"]
   },
 
+  // --- DAY 30 ---
   "30-Morning": {
     category: ContentCategory.A,
     narratorScript: "The hardest subject to learn is yourself. Da Vinci used mirrors constantly. To write, to check his art, and metaphorically to check his own bias. He was obsessed with self-correction. But we often lack the tools to see ourselves clearly. And that's exactly why we built Vincify. It isn't just about facts. Use the 'Psychology' lessons to hold a mirror to your own mind. Know thyself and download Vincify.",
